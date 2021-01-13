@@ -9,8 +9,8 @@ function clean_input($data){
 
 //Connection to database
 function connection(){
-
-    $link = mysqli_connect("shareddb-g.hosting.stackcp.net", "twalsh03", "Drunk3nS@nta67", "dukeyorkDB-3731ed1e");
+      //  Database details removed for security reasons.
+    $link = mysqli_connect();
     
     return $link;
 }
