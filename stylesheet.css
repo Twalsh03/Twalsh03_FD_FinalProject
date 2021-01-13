@@ -1,0 +1,519 @@
+@charset "UTF-8";
+
+HTML{
+    margin:  auto;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #262626;
+    font-weight: lighter;
+    color:darkgoldenrod;
+    font-size: 100%;
+    letter-spacing: 0.08rem;
+    min-width: 754px;
+}
+body{
+
+    padding: 0px;
+    margin: 0px;
+    
+}
+main{
+    padding: 0px;
+    margin: 0px;
+    min-width: 550px
+    
+}
+
+.title{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+.social{
+    float: left;
+
+}
+/* banner CSS*/
+.small{
+    margin: 3px;
+    padding: 3px;
+    width: 45%;
+    border-radius: 30px;
+}
+
+img.large{
+    width: 100%;
+}
+img.medium{
+    width: 40%;
+}
+    
+img.centre{
+    width: 94%;
+    margin: auto;
+}
+
+
+
+
+.panel{
+        margin-top: 15px;
+        margin: auto;
+        padding: 30px;
+        max-width: 46%;
+        background-color: #343434;
+        border-radius: 14%;
+}
+.histPanel{
+    background-color: #343434;
+    border-radius: 15%;
+    margin: auto;
+    padding: 20px;
+    width: 700px;
+    margin-top: 15px;
+
+}
+
+.histPanel p{
+    width: 50%;
+    float: left;
+    font-size:25px;4
+}
+
+.notice{
+    width: 93%;
+    margin: auto;
+    padding: 5%;
+    
+}
+
+
+/* start of Navigation*/
+
+#headerlinks{
+    text-align: right;
+    margin-right: 100px;
+    
+}
+#headerlinks li{
+    list-style: none;
+    display: inline-block;
+    padding: 3px;
+    margin: 2px;
+    font-size: 12px;
+    
+}
+#login{
+    
+    margin-right: 25%;
+}
+
+#primarynav {
+    background-color: #1F2F1D;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+#primarynav li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+    margin: 0px;
+}
+#staffNav{
+    border-radius: 15%;
+    background-color: #1F2F1D;
+    text-align: center;
+    font-size: 20px;
+}
+
+#staffNav li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+    margin: 0px;
+
+}
+.sticky {
+overflow: visible;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .body{
+     padding-top: 60px;
+}
+
+
+.background-1{
+    
+    background-image: url("img/sel-focus.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 400px; 
+    height: 400px;
+}
+
+.background-2{
+    overflow: auto;
+    background-image: url("img/alcohol-bar-bartender-beer-274194.jpg");
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+    height: 400px;
+}
+.background-3{
+    overflow: auto;
+    background-image: url("img/photo-of-corona-extra-bottles-on-bucket-1089932.jpg");
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+    height: 400px;
+}
+/*Start of footer*/
+#footer{ 
+
+    background-color:#1F2F1D;
+    color: darkgoldenrod;
+    text-align: center;
+    border: 1px solid black;
+    clear: both;
+    margin-top: 10px;
+}
+#footer li {
+    list-style: ;
+    display: inline-flex;
+    padding: 1rem;
+    margin: 0px;
+}
+/*End of footer*/
+
+
+
+
+a:link {
+    text-decoration: none;
+    color:darkgoldenrod;
+}
+
+a:visited {
+    color:darkgoldenrod;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+a:active {
+    color: rgb(189,232,255);
+}
+
+
+
+/* start of Main content*/
+
+h1{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 200%;
+    margin-left: 0;
+}
+
+h2{
+    text-align: left;
+    font-weight: lighter;
+    font-size: 150%;
+  
+    
+}
+
+h3{
+    text-align: left;
+    font-weight: lighter;
+    font-size: 150%;
+    padding:5px;
+    
+
+}
+h4{
+    text-align: left;
+    font-weight: lighter;
+    font-size: 125%;
+    text-align: left;
+
+}
+
+.textBox{
+    background-color: #343434;
+    margin: auto;
+    padding: 3px;
+    max-width: min-content;
+    
+}
+
+#openTimes{
+    list-style-type: none;
+    width: 40%;
+    float: left;
+    font-size: 1.5vw;
+    
+    
+}
+
+
+/*about*/
+
+.aboutCon{
+    position: relative;
+    height: 200px; 
+}
+
+.aboutinfo{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    
+}
+
+.intro{
+    border-radius: 25%;
+    width: 30%;
+    max-width: 30%;
+    height: 30%;
+    background: #343434;
+}
+
+
+
+/* forms  */
+.form{
+    width: 10rem;
+	margin: auto;
+}
+
+.formEl{
+    padding: 3px;
+    margin: 3px;
+    
+}
+
+.errorText{
+   
+    display: none;
+}
+
+.errorField{
+    border-color: red;
+    
+}
+
+.showError{
+    margin: 2px;
+    font-size: 13px;
+    display:block ruby;
+    color: red;
+}
+
+
+/*Staff Homepage*/
+
+.staffRight{
+    padding: 15px;
+    margin: 12px;
+    border: 10px;
+}
+
+.staffLeft{
+    border-radius: 15%;
+    background-color: #343434;
+    font-size: 30pt;
+    max-width: 35rem;
+    border: 10px;
+}
+
+.rightCol{
+    max-width: 475px;
+    float: right;
+
+}
+
+.leftCol{
+    max-width: 425px;
+    float: left;
+    padding: 15px;
+    margin:55px;
+    
+}
+.staffLeft li{
+    list-style: none;
+    display: block;
+}
+
+
+/*all bookings*/
+
+.booking{
+    color: black;
+    display: grid;
+    grid-column-gap: 50px;
+    margin: 60px;
+    padding: 10px;
+    background-color:darkgoldenrod;
+    border: 2px solid black;
+    width: 900px;
+}
+
+
+.bookleft{
+    max-width: 230px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+
+.bookright{
+    max-width: 230px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+}
+
+.bookDate{
+    margin:5px;
+    padding: 10px;
+
+}
+
+.text{
+    margin:5px;
+    padding: 10px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    max-width: 250px;
+    
+}
+
+.bookBar{
+    margin:5px;
+    padding: 10px;
+
+    
+}
+
+.bookMob{
+    margin:5px;
+    padding: 10px;
+    min-width: 200px;
+    
+}
+.bookMob p{
+    margin:5px;
+    padding: 5px;
+}
+
+
+.bookEmail{
+    margin:5px;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.bookEmail p{
+    margin:5px;
+    padding: 5px;
+}
+
+
+
+.buffet{
+    margin:5px;
+    padding: 10px;
+}
+
+
+/*Theft Logs */
+
+.theftBox{
+    color: black;
+    display: grid;
+    grid-column-gap: 50px;
+    margin: 60px;
+    padding: 10px;
+    background-color:darkgoldenrod;
+    border: 2px solid black;
+    width: 900px
+}
+.theftleft{
+    min-width: 230px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+.theftDetails{
+    margin:5px;
+    padding: 5px;
+}
+.theftRight{
+    max-width: inherit;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+}
+.theftRight p {
+	max-width: 30rem;
+}
+.theftright label{
+    text-align: left;
+}
+
+/*  
+
+picture references:
+
+https://www.pexels.com/photo/blue-harp-decor-on-brown-wooden-table-63633/
+
+https://www.pexels.com/photo/stainless-steel-beer-dispenser-159291/
+
+https://www.pexels.com/photo/selective-focus-photo-of-alcohol-bottles-3355400/
+
+https://www.pexels.com/photo/alcohol-bar-bartender-beer-274194/
+
+https://www.pexels.com/photo/photo-of-corona-extra-bottles-on-bucket-1089932/
+https://www.pexels.com/photo/photo-of-people-doing-cheers-1304475/
+
+https://www.pexels.com/photo/black-and-red-glass-bottle-3090893/
+
+https://www.pexels.com/photo/guinness-glass-filled-with-beer-2848681/
+
+https://www.pexels.com/photo/close-up-photography-of-wine-glasses-1123260/
+
+https://www.google.com/url?sa=i&url=http%3A%2F%2Fhighlighthollywood.com%2F2019%2F01%2Fcinemax-action-series-strike-back-returns-for-sixth-season-on-jan-25-read-synopses-for-first-six-episodes%2F&psig=AOvVaw2g7BxozcTgJ3EryVeChk4F&ust=1587405905246000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIirwvqJ9egCFQAAAAAdAAAAABAE
+
+
+
+
+
+*/
+
+
